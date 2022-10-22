@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\1\\Выборка\\Выборка.csproj",
+      "projectUniqueName": "C:\\1\\Task\\Выборка.csproj",
       "projectName": "Выборка",
-      "projectPath": "C:\\1\\Выборка\\Выборка.csproj",
+      "projectPath": "C:\\1\\Task\\Выборка.csproj",
       "packagesPath": "C:\\Users\\Александра\\.nuget\\packages\\",
-      "outputPath": "C:\\1\\Выборка\\obj\\",
+      "outputPath": "C:\\1\\Task\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Александра\\AppData\\Roaming\\NuGet\\NuGet.Config"

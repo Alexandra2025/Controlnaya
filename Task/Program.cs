@@ -6,7 +6,8 @@ Console.WriteLine("Введите элементы массива через п�
 string? stroka = Console.ReadLine();
 string[] array1 = stroka!.Split(' ');
 
-// Метод преобразует массив в строку
+// Метод преобразует массив в строку 
+// с элементами длиной не > 3.
 string Stroka(string[] arr)
 {
   string? stroka1 = "";
@@ -24,8 +25,7 @@ string Stroka(string[] arr)
 
 string stroka2 = Stroka(array1);
 string[] array2 = stroka2!.Split(' ');
-var s = string.Join("\", \"", array2);
 Console.Write("[\"");
-Console.Write(s);
+Console.Write(string.Join("\", \"", array2));
 Console.Write("\"]");
 Console.ReadKey();
